@@ -1,0 +1,19 @@
+.banner{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/hotel2.jpg?alt=media&token=6c978027-fa78-446b-a745-a1c990b88176');
+    background-position: top center;
+    background-size: cover;
+    padding: 5% 50% 35% 5%;
+    z-index:1;
+    position: relative;
+}
+
+/* ::after para colocar sobre el elemento banner algo encima */
+.banner::after{
+    content: '';
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    opacity:1;
+}
