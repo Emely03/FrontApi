@@ -1,8 +1,8 @@
 .banner{
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/hotel2.jpg?alt=media&token=6c978027-fa78-446b-a745-a1c990b88176');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/hotel3.jpg?alt=media&token=da83eeeb-95f3-4c13-8a29-a9d3b6d3c1d3');
     background-position: top center;
     background-size: cover;
-    padding: 5% 50% 35% 5%;
+    padding: 5% 50% 25% 4%;
     z-index:1;
     position: relative;
 }
@@ -10,10 +10,12 @@
 /* ::after para colocar sobre el elemento banner algo encima */
 .banner::after{
     content: '';
-    background-color: black;
+    background-color: rgb(193, 236, 248);
     position: absolute;
     z-index: -1;
     top:0;
     left:0;
-    opacity:1;
+    opacity:0.1;
+    height: 100%;
+    width: 100%;
 }
