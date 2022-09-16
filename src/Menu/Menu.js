@@ -6,7 +6,8 @@ export function Menu (){
     return (
     //Fragment para encapsular las etiquetas de html
     <> 
-        <nav className="navbar navbar-expand-lg menu navbar-light">
+
+  <nav className="navbar navbar-expand-lg menu navbar-light">
   <div className="container-fluid">
     <Link className="navbar-brand" to="#">Inicio</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,10 +16,10 @@ export function Menu (){
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+          <Link className="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="#">Habitacion</Link>
+          <Link className="nav-link active" aria-current="page" to="habitaciones">Habitacion</Link>
         </li>
       </ul>
       <form className="d-flex" role="search">

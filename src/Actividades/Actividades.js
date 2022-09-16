@@ -4,20 +4,25 @@ export function Actividades(){
         <>       
             <div className="container-fluid">
 
-                <div class="row mt-5 mb-5 ">
+                <div class="row mt-5  mx-5 ">
 
-                    <div class="col-12 col-md-6 columnacontainer">
-                        <div class="progress mt-3">
-                            <div class="progress-bar columna4" role="progressbar"></div>
+                    <div class="col-12 col-md-6 columnacontainer mt-5 ">
+                        <h1>Nuestros servicios</h1>
+                        <h6  class="mt-5">Ecologíco</h6>
+                        <div class="progress ">
+                        <div class="progress-bar bg-dark columna4" role="progressbar" aria-label="Example with label">25%</div>
                         </div>
-                        <div class="progress mt-3">
-                            <div class="progress-bar colunma3" role="progressbar"></div>
+                        <h6  class="mt-3">Ubicación</h6>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark colunma3" role="progressbar">50%</div>
                         </div>
-                        <div class="progress mt-3">
-                            <div class="progress-bar columna2" role="progressbar"></div>
+                        <h6  class="mt-3">Wiffi</h6>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark columna2" role="progressbar">75%</div>
                         </div>
-                        <div class="progress mt-3">
-                            <div class="progress-bar columna" role="progressbar"></div>
+                        <h6  class="mt-3">Comida y relajación</h6>
+                        <div class="progress ">
+                        <div class="progress-bar bg-dark columna" role="progressbar">100%</div>
                         </div>
                         </div>
                     
