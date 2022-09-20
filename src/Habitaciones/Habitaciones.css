@@ -1,0 +1,9 @@
+.habitaciones{
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/fondo.jpg?alt=media&token=43557607-e33b-4ab2-a878-bf64fb365218');
+        background-position: top center;
+        background-size: cover;
+        padding: 5% 50% 25% 4%;
+        z-index:1;
+        position: relative;
+    
+}

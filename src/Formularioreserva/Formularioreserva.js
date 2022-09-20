@@ -32,7 +32,7 @@ export function Formularioreserva(){
                 <span class="input-group-text"><i class="bi bi-people-fill"></i></span>
                                
                 <select class="form-select" aria-label="Default select example">
-                <option selected>Numero Adultos:</option>
+                <option selected>Escoge la opción:</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -44,7 +44,7 @@ export function Formularioreserva(){
                 <div class="input-group mb-3">
                 <span class="input-group-text"><i class="bi bi-people-fill"></i></span>
                 <select class="form-select" aria-label="Default select example">
-                <option selected>Numero Niños:</option>
+                <option selected>Escoge la opción:</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
