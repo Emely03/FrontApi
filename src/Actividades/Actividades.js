@@ -86,20 +86,17 @@ export function Actividades() {
                 <div class="col">
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/6.jpg?alt=media&token=48c0fd89-590b-4143-a035-1e7bf69ab2d2"
-                    className="img-fluid"
-                  ></img>
+                    className="img-fluid"></img>
                 </div>
                 <div class="col">
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/hbt2.jpg?alt=media&token=5f5ccb68-fa29-45fa-90fa-3e53e5df90c3"
-                    className="img-fluid h-100"
-                  ></img>
+                    className="img-fluid h-100"></img>
                 </div>
                 <div class="col">
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/5.jpg?alt=media&token=35f6da63-6b70-498f-ba48-4788ead94446"
-                    className="img-fluid h-100"
-                  ></img>
+                    className="img-fluid h-100"></img>
                 </div>
               </div>
             </div>
@@ -107,40 +104,34 @@ export function Actividades() {
               <div class="col">
                 <img
                   src="https://www.altonivel.com.mx/wp-content/uploads/2021/07/Comida-japonesa-.jpg"
-                  className="img-fluid"
-                ></img>
+                  className="img-fluid"></img>
               </div>
               <div class="col">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/HotelAnime.jpg?alt=media&token=310e1821-021c-4353-a1c7-7c3e926c24db"
-                  className="img-fluid h-100"
-                ></img>
+                  className="img-fluid h-100"></img>
               </div>
               <div class="col">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/hotelreservas.jpg?alt=media&token=04559c51-73ed-4e58-88f4-c9bca090c631"
-                  className="img-fluid h-100"
-                ></img>
+                  className="img-fluid h-100"></img>
               </div>
             </div>
             <div class="row mt-5 ">
               <div class="col">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/2.jpg?alt=media&token=27059b6d-9695-4c86-aa57-893386b9f7f3"
-                  className="img-fluid"
-                ></img>
+                  className="img-fluid"></img>
               </div>
               <div class="col">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/3.jpg?alt=media&token=4131d51c-bf9b-49be-ae9b-9489f517ef9c"
-                  className="img-fluid h-100"
-                ></img>
+                  className="img-fluid h-100"></img>
               </div>
               <div class="col ">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/hotelAguas.jpg?alt=media&token=8dcf6b80-d5ed-4d36-9f46-d8d0782f4abf"
-                  className="img-fluid h-100"
-                ></img>
+                  className="img-fluid h-100"></img>
               </div>
             </div>
           </div>
@@ -150,9 +141,7 @@ export function Actividades() {
             <div class="card  h-100">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/naruto-hotel-1%20(1).jpg?alt=media&token=dc13e194-402f-4a9b-8844-b3b706715002"
-                class="card-img-top"
-                
-              />
+                class="card-img-top h-100"/>
               <div class="card-body">
                 <h5 class="card-title">Animados</h5>
                 <p class="card-text">
@@ -168,9 +157,7 @@ export function Actividades() {
             <div class="card  h-100">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/hbt2.jpg?alt=media&token=5f5ccb68-fa29-45fa-90fa-3e53e5df90c3"
-                class="card-img-top"  className="img-fluid h-100"
-                
-              />
+                class="card-img-top"  className="img-fluid h-100"/>
               <div class="card-body">
                 <h5 class="card-title">Habitaciones</h5>
                 <p class="card-text">
@@ -186,17 +173,13 @@ export function Actividades() {
             <div class="card h-100">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/frontreact-d2038.appspot.com/o/spa.jpg?alt=media&token=299cd1fc-6229-443a-bacc-5c4b67efc413"
-                class="card-img-top"  className="img-fluid h-100"
-                
-              />
+                class="card-img-top"  className="img-fluid h-100"/>
               <div class="card-body">
-                <h5 class="card-title">Habitaciones</h5>
+                <h5 class="card-title">Spa</h5>
                 <p class="card-text">
-                 Habitaciones para tu relajación y comodidad.
-                </p>
+                 Con la comodidad y relajación de la naturaleza.</p>
                 <a href="#" class="btn btn-info btn btn-outline-dark">
-                Contáctanos
-                </a>
+                Contáctanos</a>
               </div>
             </div>
           </div>
