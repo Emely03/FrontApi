@@ -7,7 +7,7 @@ export function Habitaciones() {
     //USANDO EL USESTATE
     //(FUNCION ESPECIAL PARA CREAR VARIBLE GLOBAL DENTRO DEL COMPONENTE)
     const [estadoCarga, setEstadoCarga] = useState(true);
-    const [habitaciones, setHabitacion] = useState(null);
+    const [habitaciones, setHabitacion] = useState(null); //variable global para almacenar la consulta de habitaciones
 
     //USANDO EL USEEFECT
     //Funcion que controla el render(vista, lo que pinta) de un componente

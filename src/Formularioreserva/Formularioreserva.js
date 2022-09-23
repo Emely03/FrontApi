@@ -1,22 +1,36 @@
 import { useState } from "react"
 import { servicioReserva } from "../services/ServicioReserva/ServicioReserva.js"
-export function Formularioreserva(){
+import Swal from 'sweetalert2'
 
+export function Formularioreserva({idhabitacionSelecionada}){
+    console.log(idhabitacionSelecionada)
     const[entrada,setentrada]=useState("")
     const[salida,setsalida]=useState("")
     const[ninos,setninos]=useState("")
     const[adultos,setadultos]=useState("")
+    
     function EnvioFormulario(evento){
         evento.preventDefault()
        let data={
         
-            "idHabitacion" : "6321ef745a1931ff38e7c2c3",
+            "idHabitacion" : idhabitacionSelecionada,
             "fechaEntrada":entrada,
             "fechaSalida": salida,
             "numeroNinos": adultos,
             "numeroAdultos": ninos
           
        }
+       servicioReserva(data)
+       .then(function(respuesta){
+        console.log(respuesta)
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: respuesta.mensaje,
+            showConfirmButton: false,
+            timer: 1500
+          })
+       })
     }
     return (   
         <>
